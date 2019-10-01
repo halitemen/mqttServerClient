@@ -1,0 +1,11 @@
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\bin\Debug\netcoreapp2.1\mqttServerTest.deps.json
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\bin\Debug\netcoreapp2.1\mqttServerTest.runtimeconfig.json
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\bin\Debug\netcoreapp2.1\mqttServerTest.runtimeconfig.dev.json
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\bin\Debug\netcoreapp2.1\mqttServerTest.dll
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\obj\Debug\netcoreapp2.1\mqttServerTest.csprojAssemblyReference.cache
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\obj\Debug\netcoreapp2.1\mqttServerTest.csproj.CoreCompileInputs.cache
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\obj\Debug\netcoreapp2.1\mqttServerTest.AssemblyInfoInputs.cache
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\obj\Debug\netcoreapp2.1\mqttServerTest.AssemblyInfo.cs
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\bin\Debug\netcoreapp2.1\mqttServerTest.pdb
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\obj\Debug\netcoreapp2.1\mqttServerTest.dll
+C:\Users\DetaySoftPc\Source\Repos\mqttServerTest\mqttServerTest\obj\Debug\netcoreapp2.1\mqttServerTest.pdb
