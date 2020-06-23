@@ -4182,11 +4182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DetaySoftPc\\Source\\Repos\\mqttServerTest\\mqttServerTest\\mqttServerTest.csproj",
+      "projectUniqueName": "C:\\Users\\DetaySoftPc\\Desktop\\mqtt\\mqttServerClient\\mqttServerTest\\mqttServerTest.csproj",
       "projectName": "mqttServerTest",
-      "projectPath": "C:\\Users\\DetaySoftPc\\Source\\Repos\\mqttServerTest\\mqttServerTest\\mqttServerTest.csproj",
+      "projectPath": "C:\\Users\\DetaySoftPc\\Desktop\\mqtt\\mqttServerClient\\mqttServerTest\\mqttServerTest.csproj",
       "packagesPath": "C:\\Users\\DetaySoftPc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DetaySoftPc\\Source\\Repos\\mqttServerTest\\mqttServerTest\\obj\\",
+      "outputPath": "C:\\Users\\DetaySoftPc\\Desktop\\mqtt\\mqttServerClient\\mqttServerTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4221,6 +4221,7 @@
             "version": "[3.0.8, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
