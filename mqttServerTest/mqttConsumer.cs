@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Net;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using MQTTnet;
 using MQTTnet.Client.Receiving;
 using MQTTnet.Server;
