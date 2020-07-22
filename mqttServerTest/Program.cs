@@ -1,22 +1,20 @@
-﻿using Broker.MqttConsumer;
-using System;
+﻿using System;
 
-namespace mqttServerTest
+namespace MqttServerTest
 {
     class Program
     {
         static void Main(string[] args)
         {
             var mqttConsumer = new MQTTConsumer();
-
-            mqttConsumer.DataReceived += PayloadDataReceived;
+            //mqttConsumer.DataReceived += MqttConsumer_DataReceived;
             mqttConsumer.StartConsume();
             Console.ReadLine();
         }
 
-        private static void PayloadDataReceived(object sender, byte[] e)
+        private static void MqttConsumer_DataReceived(object sender, byte[] e)
         {
-            Console.WriteLine(sender);
+            //Console.WriteLine(sender);
         }
     }
 }

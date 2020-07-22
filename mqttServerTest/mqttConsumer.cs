@@ -4,7 +4,7 @@ using MQTTnet;
 using MQTTnet.Client.Receiving;
 using MQTTnet.Server;
 
-namespace Broker.MqttConsumer
+namespace MqttServerTest
 {
     public class MQTTConsumer
     {
@@ -31,19 +31,18 @@ namespace Broker.MqttConsumer
         {
 
             Server.StartAsync(optionsBuilder);
-            
+
             Server.ClientConnectedHandler = new MqttServerClientConnectedHandlerDelegate(e =>
             {
-                Console.WriteLine("Client connected " + e.ClientId);
+                Console.WriteLine("Client Connected " + e.ClientId);
             });
             Server.ApplicationMessageReceivedHandler = new MqttApplicationMessageReceivedHandlerDelegate(e =>
             {
-                //Console.WriteLine(e.ClientId + " " + e.ApplicationMessage.Topic);
-                //Console.WriteLine();
-                //Console.WriteLine(e.ClientId + " " + e.ApplicationMessage.ConvertPayloadToString());
-                //Console.WriteLine();
-                //Console.WriteLine(Decode(e.ApplicationMessage.ConvertPayloadToString()));
-                DataReceived?.Invoke(e.ApplicationMessage.ConvertPayloadToString(), null);
+                Console.WriteLine($"{"ClientId = " + e.ClientId}");
+                Console.WriteLine($"{"Topic = " + e.ApplicationMessage.Topic}");
+                Console.WriteLine($"{"Message = " + e.ApplicationMessage.ConvertPayloadToString()}");
+                Console.WriteLine("____________---------___________");
+                //DataReceived?.Invoke(e.ApplicationMessage.ConvertPayloadToString(), null);
             });
         }
 

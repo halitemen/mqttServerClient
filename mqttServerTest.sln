@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqttServerTest", "mqttServerTest\mqttServerTest.csproj", "{B6AED24C-2F97-4D67-8D6D-25547D3ECAE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttServerTest", "mqttServerTest\MqttServerTest.csproj", "{B6AED24C-2F97-4D67-8D6D-25547D3ECAE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqttClient", "mqttClient\mqttClient.csproj", "{C7F24C0A-BFA9-4429-A070-245AD7D4E64E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClientTest", "mqttClient\MqttClientTest.csproj", "{C7F24C0A-BFA9-4429-A070-245AD7D4E64E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
