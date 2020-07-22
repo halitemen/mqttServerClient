@@ -7,17 +7,16 @@ namespace mqttServerTest
     {
         static void Main(string[] args)
         {
-            var a = new MQTTConsumer();
-            
-            a.DataReceived += A_DataReceived;
-            a.StartConsume();
+            var mqttConsumer = new MQTTConsumer();
+
+            mqttConsumer.DataReceived += PayloadDataReceived;
+            mqttConsumer.StartConsume();
             Console.ReadLine();
         }
 
-        private static void A_DataReceived(object sender, byte[] e)
+        private static void PayloadDataReceived(object sender, byte[] e)
         {
             Console.WriteLine(sender);
-            Console.ReadKey();
         }
     }
 }

@@ -12,14 +12,12 @@ namespace MQTT_CLIENT
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Client console ");
+            Console.WriteLine("Client Console ");
             ConnectAsync();
             while (true)
             {
                 string message = Console.ReadLine();
-
                 PublishAsync("sayhello", message);
-                Console.Read();
             }
            
         }
